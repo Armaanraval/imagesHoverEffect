@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    padding: 0px;
+    list-style: none;
+}
+img{
+    border: 0;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0;
+}
+.pl0{
+    padding-left: 0;
+}
+.pr0{
+    padding-right: 0;
+}
+.p0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.clr{
+    clear: both;
+}
+.bg{
+    background: rgba(92, 20, 91, 0.3);
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,address,img,li{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    background: #082d48;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face{
+    font-family: OpenSans-Light;
+    src:url(../fonts/Open-sans/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family: Raleway;
+    src:url(../fonts/Raleway/Raleway-Light.ttf);
+}
+
+/*----- Coment css Ends -----*/
+
+.ueno{
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  transition: transform .3s ease-in-out,
+  -webkit-transform .3s ease-in-out;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.ueno:hover{
+  transform: scale(.95);
+}
+.ueno img{
+  width: auto;
+  transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+}
+.ueno:hover img{
+  transform: scale(1.15);
+}
+.maxcontainer{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
